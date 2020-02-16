@@ -14,8 +14,6 @@ public class Principal {
 		
 		JFrame janela = new JFrame("Calculadora");
 		
-		JPanel painel = new JPanel();
-		
 		//Soma
 		JTextField somaVar1 = new JTextField(10);
 		JTextField somaVar2 = new JTextField(10);
@@ -49,12 +47,15 @@ public class Principal {
 		divBotao.addActionListener(new AcaoBotao(divVar1, divVar2, divResult, "div"));
 		
 		//Montagem do Painel
+		JPanel painel = new JPanel();
+		
 		painel.add(new JLabel("Adição"));
 		painel.add(somaVar1);
 		painel.add(new JLabel(" + "));
 		painel.add(somaVar2);
 		painel.add(somaBotao);
 		painel.add(somaResult);
+		painel.add(new JLabel("\n"));
 		
 		painel.add(new JLabel("Subtração"));
 		painel.add(subtVar1);
@@ -62,6 +63,7 @@ public class Principal {
 		painel.add(subtVar2);
 		painel.add(subtBotao);
 		painel.add(subtResult);
+		painel.add(new JLabel("\n"));
 		
 		painel.add(new JLabel("Multiplicação"));
 		painel.add(multVar1);
@@ -69,6 +71,7 @@ public class Principal {
 		painel.add(multVar2);
 		painel.add(multBotao);
 		painel.add(multResult);
+		painel.add(new JLabel("\n"));
 		
 		painel.add(new JLabel("Divisão"));
 		painel.add(divVar1);
