@@ -49,7 +49,6 @@ public class Principal {
 		//Montagem do Painel
 		JPanel painel = new JPanel();
 		
-		painel.add(new JLabel("Adição"));
 		painel.add(somaVar1);
 		painel.add(new JLabel(" + "));
 		painel.add(somaVar2);
@@ -57,7 +56,6 @@ public class Principal {
 		painel.add(somaResult);
 		painel.add(new JLabel("\n"));
 		
-		painel.add(new JLabel("Subtração"));
 		painel.add(subtVar1);
 		painel.add(new JLabel(" - "));
 		painel.add(subtVar2);
@@ -65,7 +63,6 @@ public class Principal {
 		painel.add(subtResult);
 		painel.add(new JLabel("\n"));
 		
-		painel.add(new JLabel("Multiplicação"));
 		painel.add(multVar1);
 		painel.add(new JLabel(" x "));
 		painel.add(multVar2);
@@ -73,7 +70,6 @@ public class Principal {
 		painel.add(multResult);
 		painel.add(new JLabel("\n"));
 		
-		painel.add(new JLabel("Divisão"));
 		painel.add(divVar1);
 		painel.add(new JLabel(" / "));
 		painel.add(divVar2);
