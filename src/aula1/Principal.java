@@ -54,21 +54,18 @@ public class Principal {
 		painel.add(somaVar2);
 		painel.add(somaBotao);
 		painel.add(somaResult);
-		painel.add(new JLabel("\n"));
 		
 		painel.add(subtVar1);
 		painel.add(new JLabel(" - "));
 		painel.add(subtVar2);
 		painel.add(subtBotao);
 		painel.add(subtResult);
-		painel.add(new JLabel("\n"));
 		
 		painel.add(multVar1);
 		painel.add(new JLabel(" x "));
 		painel.add(multVar2);
 		painel.add(multBotao);
 		painel.add(multResult);
-		painel.add(new JLabel("\n"));
 		
 		painel.add(divVar1);
 		painel.add(new JLabel(" / "));
